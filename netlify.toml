@@ -1,3 +1,0 @@
-# Sitio estático: solo se publica la raíz (index.html), sin build.
-[build]
-  publish = "."
