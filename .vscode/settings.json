@@ -1,0 +1,8 @@
+{
+  "// Vista previa": "Abre index.html con la previsualización en vivo",
+  "livePreview.defaultPreviewPath": "/index.html",
+  "liveServer.settings.root": "/",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.wordWrap": "on",
+  "files.trimTrailingWhitespace": false
+}

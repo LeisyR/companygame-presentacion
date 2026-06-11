@@ -1,0 +1,7 @@
+{
+  "// Extensiones recomendadas para esta presentación": "VS Code las ofrecerá al abrir la carpeta",
+  "recommendations": [
+    "ms-vscode.live-server",
+    "ritwickdey.LiveServer"
+  ]
+}
