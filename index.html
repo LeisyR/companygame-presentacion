@@ -111,6 +111,16 @@
   .diff h3{font-family:'Montserrat';font-size:clamp(14px,1.5vw,19px);margin-bottom:.22em}
   .diff p{color:var(--ink);font-size:clamp(12px,1.25vw,15px);line-height:1.45}
 
+  /* CATALOGO DE SIMULADORES */
+  .sim-table{width:100%;border-collapse:collapse;margin:auto 0;font-size:clamp(11px,1.18vw,16px);box-shadow:var(--shadow);border-radius:14px;overflow:hidden;background:#fff}
+  .sim-table thead th{background:linear-gradient(135deg,var(--accent),var(--blue));color:#fff;font-family:'Montserrat';font-weight:700;text-align:left;padding:.7em .9em;letter-spacing:.3px}
+  .sim-table tbody td{padding:.55em .9em;border-top:1px solid var(--line);color:var(--ink);line-height:1.35;vertical-align:top}
+  .sim-table tbody tr:nth-child(even){background:var(--light2)}
+  .sim-table tbody tr:hover{background:var(--light)}
+  .sim-table .sim-name{font-weight:700;color:var(--navy);white-space:nowrap}
+  .sim-table .sim-sector{color:var(--gray);font-weight:600}
+  .sim-cat-foot{margin-top:1em;color:var(--gray);font-size:clamp(11px,1.1vw,13px);text-align:center}
+
   /* CATEGORIAS */
   .cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2vw;margin:auto 0}
   .cat{position:relative;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);cursor:pointer;aspect-ratio:16/10;transition:transform .25s,box-shadow .25s}
@@ -447,9 +457,115 @@
           <li><b>7 niveles de dificultad</b>: del introductorio (nivel 1) al MBA / avanzado (nivel 7).</li>
           <li>Un <b>sector real</b> por simulador: banca, hotelería, alimentación, tecnología, retail, ESG…</li>
           <li>Un <b>mismo entorno</b> para todos los cursos de la facultad.</li>
+          <li>A continuación, el <b>catálogo por categoría</b>.</li>
         </ul>
       </div>
       <p class="board-note">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.1 · CATALOGO · NEGOCIOS Y ESTRATEGIA -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">♟️</span>Negocios y Estrategia</h2><p class="card-sub">Catálogo de simuladores · 1 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">T-shirt</td><td class="sim-sector">Textil</td><td>Introducción a la gestión empresarial · primeros semestres de Administración</td></tr>
+          <tr><td class="sim-name">SunnyDay</td><td class="sim-sector">Complementos personales</td><td>Decisiones básicas de dirección · Administración (nivel inicial)</td></tr>
+          <tr><td class="sim-name">Energy Co</td><td class="sim-sector">Bebidas (gran consumo)</td><td>Estrategia competitiva en gran consumo · Administración / Negocios</td></tr>
+          <tr><td class="sim-name">Business21</td><td class="sim-sector">Tecnología audio/video</td><td>Dirección general por áreas · Administración (intermedio)</td></tr>
+          <tr><td class="sim-name">BusinessGlobal</td><td class="sim-sector">Tecnología del hogar</td><td>Dirección integral de una multinacional · pregrado avanzado / posgrado</td></tr>
+          <tr><td class="sim-name">Business Strategy</td><td class="sim-sector">Tecnología del hogar</td><td>Estrategia corporativa de alto nivel · MBA</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.2 · CATALOGO · MARKETING Y VENTAS -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">📈</span>Marketing y Ventas</h2><p class="card-sub">Catálogo de simuladores · 2 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">MarketGame</td><td class="sim-sector">Tecnología / juegos</td><td>Introducción al marketing · primeros semestres de Marketing</td></tr>
+          <tr><td class="sim-name">CoffeeTime</td><td class="sim-sector">Industria cafetera</td><td>Marketing y mezcla comercial · Marketing / Administración</td></tr>
+          <tr><td class="sim-name">SalesManager</td><td class="sim-sector">Bebidas</td><td>Gestión de la fuerza de ventas · Marketing / Ventas</td></tr>
+          <tr><td class="sim-name">FoodCompany</td><td class="sim-sector">Lácteos (gran consumo)</td><td>Marketing de producto y comercialización masiva · Marketing</td></tr>
+          <tr><td class="sim-name">TechCompany</td><td class="sim-sector">Hardware y software</td><td>Marketing en sector tecnológico · Marketing / Negocios</td></tr>
+          <tr><td class="sim-name">GlobalMarket</td><td class="sim-sector">Bebidas</td><td>Marketing global y distribución multicanal · Marketing avanzado / posgrado</td></tr>
+          <tr><td class="sim-name">Focus</td><td class="sim-sector">Centro deportivo</td><td>Diseño y gestión estratégica de marketing · Marketing avanzado / MBA</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.3 · CATALOGO · FINANZAS Y BANCA -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">💰</span>Finanzas y Banca</h2><p class="card-sub">Catálogo de simuladores · 3 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">Contatrainer</td><td class="sim-sector">Contabilidad</td><td>Fundamentos de contabilidad · Contaduría (nivel inicial)</td></tr>
+          <tr><td class="sim-name">Corbatul</td><td class="sim-sector">Textil</td><td>Gestión financiera y crecimiento de una pyme · Finanzas / Contaduría</td></tr>
+          <tr><td class="sim-name">BankGame</td><td class="sim-sector">Sucursal bancaria</td><td>Gestión de una sucursal bancaria · Finanzas / Banca</td></tr>
+          <tr><td class="sim-name">BankCompany</td><td class="sim-sector">Entidad financiera</td><td>Dirección de una entidad bancaria · Finanzas / Banca avanzado / posgrado</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.4 · CATALOGO · EMPRENDIMIENTO -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">🚀</span>Emprendimiento</h2><p class="card-sub">Catálogo de simuladores · 4 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">FitnessGym</td><td class="sim-sector">Centro deportivo</td><td>Creación y lanzamiento de un negocio · Emprendimiento</td></tr>
+          <tr><td class="sim-name">BusinessChef</td><td class="sim-sector">Gastronomía</td><td>Emprendimiento en gastronomía · Emprendimiento / Hotelería</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.5 · CATALOGO · BUSINESS TRANSFORMATION -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">🔄</span>Business Transformation</h2><p class="card-sub">Catálogo de simuladores · 5 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">InnovaTech</td><td class="sim-sector">Tecnología / juegos</td><td>Innovación y transformación digital (intro) · Negocios / Ing. Industrial</td></tr>
+          <tr><td class="sim-name">Global2020</td><td class="sim-sector">Textil</td><td>Transformación de un negocio establecido · Negocios / posgrado</td></tr>
+          <tr><td class="sim-name">Global2030</td><td class="sim-sector">Wearables (tecnología)</td><td>Transformación e innovación avanzada · MBA</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
+    </div>
+  </div></section>
+
+  <!-- 6.6 · CATALOGO · HOSPITALIDAD Y SERVICIOS -->
+  <section class="slide"><div class="card">
+    <div class="card-head"><span class="card-num"></span><h2><span class="ic">🏨</span>Hospitalidad y Servicios</h2><p class="card-sub">Catálogo de simuladores · 6 de 6</p></div>
+    <div class="card-body">
+      <table class="sim-table reveal">
+        <thead><tr><th>Simulador</th><th>Sector</th><th>Qué enseña / a quién</th></tr></thead>
+        <tbody>
+          <tr><td class="sim-name">Hotelgame</td><td class="sim-sector">Gestión hotelera</td><td>Introducción a la gestión hotelera · Hotelería y Turismo (inicial)</td></tr>
+          <tr><td class="sim-name">HotelVirtual</td><td class="sim-sector">Gestión hotelera</td><td>Diferenciación y posicionamiento hotelero · Hotelería y Turismo</td></tr>
+          <tr><td class="sim-name">Five Stars</td><td class="sim-sector">Gastronomía</td><td>Gestión de restaurante / gastronomía · Hotelería / Gastronomía</td></tr>
+          <tr><td class="sim-name">Innovahotel</td><td class="sim-sector">Hotel urbano 4★</td><td>Gestión de ocupación y competencia hotelera · Hotelería y Turismo</td></tr>
+          <tr><td class="sim-name">HotelCompany</td><td class="sim-sector">Cadena hotelera</td><td>Dirección de una cadena hotelera · Hotelería avanzado / MBA</td></tr>
+        </tbody>
+      </table>
+      <p class="sim-cat-foot">Catálogo oficial CompanyGame · Simuladores de Negocios Colombia.</p>
     </div>
   </div></section>
 
@@ -687,7 +803,7 @@
     <div class="progress"><i id="bar"></i></div>
     <div class="nav">
       <button id="prev" title="Anterior">‹</button>
-      <span class="counter" id="counter">1 / 17</span>
+      <span class="counter" id="counter">1 / 23</span>
       <button id="next" title="Siguiente">›</button>
       <button id="grid" title="Cuadrícula">▦</button>
       <button id="pdf" title="Descargar PDF / Imprimir">⤓</button>
